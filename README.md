@@ -111,7 +111,7 @@
 - 白天/夜晚场景切换
 - 表情、睁眼/闭眼、死亡状态展示
 
-## Game Flow
+## 🔄 游戏流程 (Game Flow)
 
 主流程在 `main_cn.py` 的 `run_game()` 中：
 
