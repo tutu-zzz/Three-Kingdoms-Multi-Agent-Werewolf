@@ -1,0 +1,678 @@
+🎮 欢迎来到三国狼人杀！
+🎮 开始设置三国狼人杀游戏...
+游戏主持人: 📢 【关羽】你在这场三国狼人杀中扮演狼人，你的角色是关羽。夜晚可以击杀一名玩家
+游戏主持人: 📢 【周瑜】你在这场三国狼人杀中扮演狼人，你的角色是周瑜。夜晚可以击杀一名玩家
+游戏主持人: 📢 【张飞】你在这场三国狼人杀中扮演预言家，你的角色是张飞。每晚可以查验一名玩家的身份
+游戏主持人: 📢 【刘备】你在这场三国狼人杀中扮演女巫，你的角色是刘备。拥有解药和毒药各一瓶，可以救人或杀人
+游戏主持人: 📢 【曹操】你在这场三国狼人杀中扮演村民，你的角色是曹操。无特殊技能，依靠推理和投票
+游戏主持人: 📢 【诸葛亮】你在这场三国狼人杀中扮演村民，你的角色是诸葛亮。无特殊技能，依靠推理和投票
+游戏主持人: 📢 三国狼人杀游戏开始！参与者：关羽、周瑜、张飞、刘备、曹操、诸葛亮
+✅ 游戏设置完成，共6名玩家
+
+🌙 === 第1轮游戏开始 ===
+游戏主持人: 📢 🌙 第1夜降临，天黑请闭眼...
+游戏主持人: 📢 🐺 狼人请睁眼，选择今晚要击杀的目标...
+游戏主持人: 📢 狼人们，请讨论今晚的击杀目标。存活玩家：关羽、周瑜、张飞、刘备、曹操、诸葛亮
+关羽: 以吾观之，曹操气焰嚣张，必是忠臣无疑。吾等当先除之，以免后患。
+周瑜: 关羽言之有理，曹操确是可疑。然吾观刘备亦非善类，其仁义之名或为虚妄。
+关羽: 周瑜贤弟所言极是，刘备言行不一，亦不可小觑。但曹操之威胁更甚，吾意已决。
+周瑜: 既然云长心意已决，吾等便随君之意。但愿此番抉择无误。
+关羽: 多谢周瑜贤弟信任，吾等今夜便行动。
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "8uqVzALsPJXXWQ4dxu5aGL",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_e5744ddbc7a34cdeba37cc",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_0865bc3ae78c4bbf9853bd",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_c1ad15fa7cff46019b3c26",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_62e00b5c793e4f018433ac",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_c8c0c8d9caa5406bb20e3f",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_d67571189912446eaf1c03",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_8708d23233a94766b60b38",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_2eec691b0dae4e60856bf0",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_c42d4f453bc1458da58da0",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 2 validation errors for DiscussionModelCN\nreach_agreement\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nconfidence_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+周瑜: {
+    "reach_agreement": true,
+    "confidence_level": 7,
+    "key_evidence": "尊重关羽的判断，同时也暗示刘备同样可疑以分散注意力。"
+}
+游戏主持人: 📢 请选择击杀目标
+关羽: 吾等今夜的目标便是曹操，以绝后患。
+周瑜: 吾等今夜便依关羽之意，击杀曹操。
+游戏主持人: 📢 🔮 预言家请睁眼，选择要查验的玩家...
+张飞: 我是张飞，作为预言家我今晚要开始查验玩家身份。
+游戏主持人: 📢 查验结果：曹操是好人
+游戏主持人: 📢 🧙‍♀️ 女巫请睁眼...
+游戏主持人: 📢 今晚曹操被狼人击杀
+刘备: 我昨晚使用了解药救了曹操。
+游戏主持人: 📢 你使用解药救了曹操
+游戏主持人: 📢 昨夜平安无事，无人死亡。
+游戏主持人: 📢 ☀️ 第1天天亮了，请大家睁眼...
+游戏主持人: 📢 现在开始自由讨论。存活玩家：关羽、周瑜、张飞、刘备、曹操、诸葛亮
+关羽: 诸位，吾等今夜若不除去曹操，恐其祸乱朝纲。
+周瑜: 云长言之有理，曹操确是吾等心腹大患。然刘备亦不可轻视，其人城府颇深。
+张飞: {
+    "reach_agreement": false,
+    "confidence_level": 7,
+    "key_evidence": "我昨晚查验了曹操，他是好人。关羽和周瑜的言论似乎对曹操有所误解。"
+}
+刘备: 云长，公瑾所言差矣。曹操虽有野心，但吾观其言行，并非狼子野心之辈。昨晚我用解药救了他，也是因为相信他是清白的。
+曹操: 关羽、周瑜，你们两位的疑心过重了。我曹操虽有野心，但并非狼人。张飞已经查验过我的身份，刘备也出言相救。我们应当团结一致，找出真正的狼人。
+诸葛亮: {"reach_agreement": false, "confidence_level": 6, "key_evidence": "张飞的查验结果和刘备的行为表明曹操并非狼人，但周瑜的疑虑也不无道理。我们需要更多的信息来判断。"}
+游戏主持人: 📢 请投票选择要淘汰的玩家
+关羽: 既然如此，吾便不再坚持。但曹操之事，吾仍有疑虑。
+周瑜: 既然张飞查验曹操为好人，刘备亦出言相救，吾等便暂且信之。但狼人狡猾，吾等仍需警惕。
+张飞: {\    "vote": "周瑜",
+    "reason": "周瑜对曹操的怀疑没有根据，且他的话语中透露出对刘备的不信任。考虑到我昨晚查验了曹操是好人，我认为我们应该将注意力转向周瑜。",\    "suspicion_level": 8
+}
+刘备: 我认为我们应该相信张飞的查验结果，曹操是好人。现在不是内讧的时候，我建议我们投票给周瑜，他的话里有太多的猜忌。
+曹操: 既然诸葛亮也认为需要更多信息来判断，那我提议我们暂时不要轻举妄动。但我怀疑周瑜可能是狼人，因为他对我的敌意太过明显。
+诸葛亮: {"vote": "周瑜", "suspicion_level": 5, "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"}
+system: {
+    "type": "tool_result",
+    "id": "call_b81cc8b153c242f980900f",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: 请允许我重新整理我的投票理由。
+
+{
+    "vote": "周瑜",
+    "suspicion_level": 5,
+    "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "Cu8hJ7FjNHNHtfMy5PNnLY",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "周瑜", "suspicion_level": 5, "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"}
+system: {
+    "type": "tool_result",
+    "id": "call_e9012a8ddaa347cc9e2450",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "周瑜", "suspicion_level": 5, "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"}
+system: {
+    "type": "tool_result",
+    "id": "call_2a4c0e8b96764060ae2f56",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "周瑜", "suspicion_level": 5, "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"}
+system: {
+    "type": "tool_result",
+    "id": "call_d60865120d2441a08c76e5",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "周瑜", "suspicion_level": 5, "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"}
+system: {
+    "type": "tool_result",
+    "id": "call_113c95c6288a4c69b5ea2b",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "周瑜", "suspicion_level": 5, "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"}
+system: {
+    "type": "tool_result",
+    "id": "call_7e996a98ebe545338c2468",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "周瑜", "suspicion_level": 5, "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"}
+system: {
+    "type": "tool_result",
+    "id": "call_e1f12f2a4da44e46a83ff2",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "周瑜", "suspicion_level": 5, "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"}
+system: {
+    "type": "tool_result",
+    "id": "call_6b231978befb41be8354f9",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "周瑜", "suspicion_level": 5, "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"}
+system: {
+    "type": "tool_result",
+    "id": "call_f8b6a26bcb3e42f7b75bec",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: 当前情况是，张飞查验了曹操的身份，证明他是好人。刘备也用解药救了曹操，进一步支持了曹操的好人身份。然而，周瑜对刘备表示怀疑，并且主动提出质疑。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜，以期能够进一步澄清局势。我的投票理由如下：
+
+{
+    "vote": "周瑜",
+    "suspicion_level": 5,
+    "reason": "虽然曹操被查验为好人，但周瑜对刘备的怀疑也值得我们注意。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。"
+}
+⚠️ 诸葛亮 的投票无效,视为弃票
+游戏主持人: 📢 投票结果：周瑜以3票被淘汰出局。
+第1轮结束，存活玩家：关羽、张飞、刘备、曹操、诸葛亮
+
+🌙 === 第2轮游戏开始 ===
+游戏主持人: 📢 🌙 第2夜降临，天黑请闭眼...
+游戏主持人: 📢 🐺 狼人请睁眼，选择今晚要击杀的目标...
+游戏主持人: 📢 狼人们，请讨论今晚的击杀目标。存活玩家：关羽、张飞、刘备、曹操、诸葛亮
+关羽: 吾等今夜应变更为刘备为目标。曹操既已证明非狼，刘备之仁义或为伪装，昨晚之举更显可疑。
+关羽: 刘备之仁义或许只是为了掩人耳目，吾等不可被其表象所惑。
+关羽: 刘备言行不一，吾等应以他为目标。
+游戏主持人: 📢 请选择击杀目标
+关羽: 吾等今夜便行动，除去刘备。
+游戏主持人: 📢 🔮 预言家请睁眼，选择要查验的玩家...
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "WLPgtdcMia4uGDMsKaUZv2",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "Jip47nma8MEoMY2AVoKBnq",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "4pKqbVsk3PRwwEUSW4FQF8",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_ad5ea4267721461b93fde6",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_ae84d27706a243b0a1d615",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_4ffec22f29a049058a6d71",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_5840e21752584560bbe0ba",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_8a2a3d58903546ed98a2b7",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_682ba36f181f4aedafcca2",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_8d89b49d9f7f419ab80f03",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for SeerModelCN\ntarget\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\ncheck_reason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\npriority_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+张飞: {
+    "reach_agreement": true,
+    "confidence_level": 8,
+    "key_evidence": "我昨晚查验了曹操，他是好人。周瑜对曹操的怀疑没有根据，并且他的话语中透露出对刘备的不信任。我认为我们应该投票给周瑜。"
+}
+⚠️ 预言家查验失败,跳过此阶段
+游戏主持人: 📢 🧙‍♀️ 女巫请睁眼...
+游戏主持人: 📢 今晚刘备被狼人击杀
+刘备: 看来我的使命已经完成，昨晚我使用了解药救了曹操。希望诸位能够继续团结一致，找出狼人。
+游戏主持人: 📢 昨夜，刘备不幸遇害。
+游戏主持人: 📢 ☀️ 第2天天亮了，请大家睁眼...
+游戏主持人: 📢 现在开始自由讨论。存活玩家：关羽、张飞、曹操、诸葛亮
+关羽: 诸位，刘备之仁义不过虚名。昨晚之事，更显其狼子野心。
+张飞: {\    "reach_agreement": false,
+    "confidence_level": 7,
+    "key_evidence": "关羽对刘备的怀疑没有直接证据支持。我们需要更多的信息来判断。我建议今晚查验关羽，以确认他的身份。"
+}
+曹操: 关羽，你对刘备的指控过于武断。我们应当依据事实来判断，而非个人的好恶。张飞提议查验你的身份，或许能够澄清一切。
+诸葛亮: {"reach_agreement": false, "confidence_level": 6, "key_evidence": "关羽对刘备的指控缺乏直接证据，但他的立场坚定。张飞建议查验关羽的身份或许能够提供更多信息。目前我仍持保留态度。"}
+游戏主持人: 📢 请投票选择要淘汰的玩家
+关羽: 诸位，吾之忠心天地可鉴。但既然张飞贤弟有所疑虑，便请查验。
+张飞: {\    "vote": "关羽",
+    "reason": "关羽对刘备的怀疑没有直接证据支持，且他突然改变态度令人起疑。今晚我建议查验他的身份以确认。",
+    "suspicion_level": 8
+}
+曹操: 既然张飞提议查验关羽，而诸葛亮也认为需要更多信息，那我同意今晚查验关羽的身份。但在投票前，我们应该再仔细考虑。
+诸葛亮: {"vote": "关羽", "suspicion_level": 6, "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"}
+system: {
+    "type": "tool_result",
+    "id": "call_89a35fd2498447949b57b7",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: 请允许我重新整理我的投票理由。\
+{
+    "vote": "关羽",
+    "suspicion_level": 6,
+    "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"
+}
+system: {
+    "type": "tool_result",
+    "id": "call_97dabb89a87f4d55adb078",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "关羽", "suspicion_level": 6, "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"}
+system: {
+    "type": "tool_result",
+    "id": "call_60aa6e1aa8244ee885ef7c",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "关羽", "suspicion_level": 6, "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"}
+system: {
+    "type": "tool_result",
+    "id": "call_a9929d2c0629451cb2a361",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "关羽", "suspicion_level": 6, "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"}
+system: {
+    "type": "tool_result",
+    "id": "call_068ced34c3e9486185659f",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "关羽", "suspicion_level": 6, "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"}
+system: {
+    "type": "tool_result",
+    "id": "call_75cae1af3d8c44a8a35238",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "关羽", "suspicion_level": 6, "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"}
+system: {
+    "type": "tool_result",
+    "id": "call_2e8a366a423649749cd2f2",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "关羽", "suspicion_level": 6, "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"}
+system: {
+    "type": "tool_result",
+    "id": "call_ce4b2b971184481198868e",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "关羽", "suspicion_level": 6, "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"}
+system: {
+    "type": "tool_result",
+    "id": "call_9f8573ac4f764c70a4aede",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: {"vote": "关羽", "suspicion_level": 6, "reason": "虽然我对刘备也有疑虑，但关羽的指控缺乏证据。张飞提议查验关羽，这或许能够揭示真相。因此我选择投票给关羽以期进一步的信息。"}
+system: {
+    "type": "tool_result",
+    "id": "call_b5fe61dcd06d4723adda71",
+    "name": "generate_response",
+    "output": [
+        {
+            "type": "text",
+            "text": "Arguments Validation Error: 3 validation errors for VoteModelCN\nvote\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nreason\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\nsuspicion_level\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+诸葛亮: 当前局势如下：张飞查验了曹操，证明他是好人。刘备用解药救了曹操，进一步支持曹操的好人身份。周瑜对刘备表示怀疑，并且主动提出质疑。在没有更多线索的情况下，我倾向于投票给更加主动提出质疑的周瑜。然而，在后续讨论中，关羽对刘备提出了指控，但缺乏直接证据。张飞建议查验关羽的身份以获取更多信息。基于这些信息，我选择投票给关羽，希望通过查验他的身份来揭示更多的真相。我的投票理由是虽然我对刘备也有疑虑，但关羽的指控缺乏证据，因此我选择投票给关羽以期进一步的信息。
+⚠️ 诸葛亮 的投票无效,视为弃票
+游戏主持人: 📢 投票结果：关羽以2票被淘汰出局。
+游戏主持人: 📢 🎉 游戏结束！好人阵营胜利！所有狼人已被淘汰！
