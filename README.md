@@ -1,18 +1,19 @@
-# Three Kingdoms Multi-Agent Werewolf
+# 🎭 Three Kingdoms Multi-Agent Werewolf
+**—— 当三国群雄遇上狼人杀：基于 AgentScope 的 Multi-Agent 大模型沙盘推演**
 
-一个基于 AgentScope 的三国狼人杀多智能体项目。  
-项目把每个玩家实现为一个独立的 LLM Agent，用 Prompt 注入角色身份、目标和人物性格；同时用 Python 规则引擎负责游戏流程、技能结算和胜负判断；最后通过一个日志回放 Web UI 把整局对局可视化。
+假如曹操抽到了狼人牌，他会如何狡辩？假如诸葛亮是预言家，他能带领好人走向胜利吗？
+
+本项目将每个玩家打造为一个独立的 LLM Agent，通过 Prompt 注入《三国演义》的角色人设与目标；同时，由严格的 Python 规则引擎充当“无情的主持人”，接管游戏流程、技能结算与胜负判断。最后，通过一个简单的前端 Web UI，将大模型之间的“勾心斗角”完整可视化回放。
 
 这个项目适合用于展示以下能力：
 
-- 多智能体应用编排
-- Prompt Engineering
-- 结构化输出约束
-- 确定性规则引擎设计
-- 日志驱动的可视化回放
-- 大模型应用 Demo 产品化
+- 🤖 **多智能体编排 (Multi-Agent)** 
+- ✍️ **提示词工程 (Prompt Engineering)**
+- 🧱 **结构化输出约束 (Structured Output)**
+- ⚖️ **确定性规则引擎设计 (Rule Engine)**
+- 📺 **日志驱动的可视化回放 (Log-driven UI)**
 
-## Project Highlights
+## ✨ 核心亮点 (Project Highlights)
 
 - 每个角色都是独立 Agent，具备不同身份与人设。
 - 讨论、投票、查验、用药等关键环节都使用结构化输出，避免自由文本难以解析。
@@ -20,17 +21,25 @@
 - 使用日志回放 UI 复现整局对局，便于调试与展示。
 - 项目结构清晰，适合作为大模型应用开发岗位的作品集项目。
 
-## Tech Stack
+## 🎬 效果演示 (Demo)
 
-- Python 3
-- AgentScope
-- DashScope / Qwen
-- Pydantic
-- asyncio
-- Python stdlib HTTP server
-- HTML / CSS / JavaScript
+以下演示展示了项目中的多智能体对局流程、日志回放可视化，以及关键动作事件的动态表现。
 
-## Repository Structure
+- 开局与角色入场
+- 玩家发言与消息气泡跟随
+- 动作连线、状态变化与终局展示
+![part1](assets/Part001.gif)
+![part2](assets/Part002.gif)
+![part3](assets/Part003.gif)
+
+
+## 🛠️ 技术栈 (Tech Stack)
+
+* **核心逻辑**: Python 3, asyncio, Pydantic
+* **AI 框架 & 模型**: AgentScope, DashScope / Qwen (通义千问)
+* **前端可视化**: HTML / CSS / Vanilla JavaScript, Python stdlib HTTP server
+
+## 🗂️ 仓库结构 (Repository Structure)
 
 ```text
 .
@@ -47,11 +56,11 @@
 └── .env                     # 本地密钥配置，不应提交到 GitHub
 ```
 
-## Architecture
+## 🧠 架构设计 (Architecture)
 
 项目可以分成 4 层：
 
-### 1. Agent Layer
+### 1. 智能体层 (Agent Layer)
 
 `main_cn.py` 中的 `ThreeKingdomsWerewolfGame` 会为每位玩家创建一个 `ReActAgent`。
 
@@ -64,7 +73,7 @@
 - 每个 Agent 都有自己的上下文和视角
 - 每个 Agent 都会基于自己的身份做推理和决策
 
-### 2. Structured Output Layer
+### 2. 结构化通信层 (Structured Output Layer)
 
 `structured_output_cn.py` 中定义了讨论、投票、查验、女巫行动、猎人开枪等结构化模型。
 
@@ -76,7 +85,7 @@
 
 这是整个项目里最关键的可靠性设计之一。
 
-### 3. Rule Engine Layer
+### 3. 规则引擎层 (Rule Engine Layer)
 
 `utils_cn.py` 和 `game_roles.py` 管理确定性逻辑：
 
@@ -89,7 +98,7 @@
 
 这部分不依赖模型，避免把确定性逻辑交给 LLM。
 
-### 4. Replay UI Layer
+### 4. 界面回放层 (Replay UI Layer)
 
 `web_ui.py` 会读取游戏日志并解析为事件流，再通过一个轻量 Web 页面进行回放。
 
@@ -121,27 +130,16 @@
 
 这是一个典型的有限状态机式编排。
 
-## Why This Project Matters for LLM Application Roles
+## 🚀 快速起飞 (Setup)
+只需简单的 5 步，即可在你的电脑上开启这场跨越千年的狼人杀对决：
 
-这个项目不是单纯“调用一次模型 API”，而是展示了完整的大模型应用思路：
-
-- 把 LLM 当作决策模块，而不是把所有逻辑都交给 LLM
-- 用 Schema 约束输出，提高系统稳定性
-- 用多智能体模拟社会博弈场景
-- 用日志和前端回放增强可观测性
-- 用 Python 接管状态机与业务规则
-
-如果你投递的是大模型应用开发、多智能体应用、AI 产品原型、Prompt/Agent 工程相关岗位，这类项目比单纯聊天机器人更有说服力。
-
-## Setup
-
-### 1. Install dependencies
+### 1. 安装依赖 (Install dependencies)
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Create `.env`
+### 2. 配置密钥 (Create `.env`)
 
 在项目根目录创建 `.env`：
 
@@ -149,31 +147,31 @@ pip install -r requirements.txt
 DASHSCOPE_API_KEY=your_api_key_here
 ```
 
-### 3. Verify environment
+### 3. 环境测试 (Verify environment)
 
 ```bash
 python test_env.py
 ```
 
-### 4. Run the game
+### 4. 启动对局 (Run the game)
 
 ```bash
 python main_cn.py
 ```
 
-### 5. Run the replay UI
+### 5. 开启全息回放 (Run the replay UI)
 
 ```bash
 python web_ui.py --host 127.0.0.1 --port 6006
 ```
 
-然后打开：
+然后打开浏览器访问，准备吃瓜！🍉：
 
 ```text
 http://127.0.0.1:6006
 ```
 
-## Key Files to Study First
+## 📂 源码导读 (Key Files to Study)
 
 如果你想系统学习这个项目，建议按这个顺序看代码：
 
@@ -188,7 +186,7 @@ http://127.0.0.1:6006
 5. `web_ui.py`
    理解日志解析与前端回放
 
-## Interview Talking Points
+## 🗣️ Interview Talking Points
 
 你可以这样介绍这个项目：
 
@@ -197,7 +195,7 @@ http://127.0.0.1:6006
 > 游戏流程、技能结算和胜负判断由 Python 规则引擎管理，避免把确定性逻辑交给大模型。  
 > 为了增强可观测性，我还实现了一个日志驱动的 Web 回放界面，方便调试 Agent 行为并做产品化展示。
 
-## Possible Improvements
+## 🗺️ Possible Improvements
 
 - 接入记忆机制，让 Agent 具备更强的长程推理能力
 - 加入 RAG 或外部知识，扩展人物背景和行为风格
@@ -207,7 +205,7 @@ http://127.0.0.1:6006
 - 支持更多角色和更复杂的规则版本
 - 进一步拆分前后端，做成完整 Web 应用
 
-## Notes
+## ⚠️ 避坑指南 (Notes)
 
 - 本项目依赖 DashScope API Key，请勿将 `.env` 提交到 GitHub。
 - 日志和回放界面主要用于演示与学习，不是生产级多人在线系统。
