@@ -34,6 +34,7 @@
 
 ```text
 .
+├── assets/                  # GIF、截图等演示资源
 ├── main_cn.py               # 游戏主入口与多智能体编排
 ├── game_roles.py            # 角色定义、阵营配置、人物性格
 ├── prompt_cn.py             # 中文 Prompt 模板
